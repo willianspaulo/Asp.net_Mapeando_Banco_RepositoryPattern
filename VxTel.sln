@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VxTel.Api", "VxTel.Api\VxTel.Api.csproj", "{E0E4DEB9-499E-4E70-BFF2-CEF9AA291EA5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VxTel.Repository", "VxTel.Repository\VxTel.Repository.csproj", "{A358F9CD-B4D8-4DF1-96A9-224AC3F5DD18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VxTel.Domain", "VxTel.Domain\VxTel.Domain.csproj", "{6F4565A4-2A51-4DCB-95A3-A0A1AF6FFF38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E0E4DEB9-499E-4E70-BFF2-CEF9AA291EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0E4DEB9-499E-4E70-BFF2-CEF9AA291EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0E4DEB9-499E-4E70-BFF2-CEF9AA291EA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A358F9CD-B4D8-4DF1-96A9-224AC3F5DD18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A358F9CD-B4D8-4DF1-96A9-224AC3F5DD18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A358F9CD-B4D8-4DF1-96A9-224AC3F5DD18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A358F9CD-B4D8-4DF1-96A9-224AC3F5DD18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F4565A4-2A51-4DCB-95A3-A0A1AF6FFF38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F4565A4-2A51-4DCB-95A3-A0A1AF6FFF38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F4565A4-2A51-4DCB-95A3-A0A1AF6FFF38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F4565A4-2A51-4DCB-95A3-A0A1AF6FFF38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
