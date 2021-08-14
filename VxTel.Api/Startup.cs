@@ -10,6 +10,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using VxTel.Repository.Interfaces;
+using VxTel.Repository.Repositories;
 
 namespace VxTel.Api
 {
@@ -25,6 +27,8 @@ namespace VxTel.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<ITeste, TesteRepository>();
+
             services.AddControllers();
         }
 
